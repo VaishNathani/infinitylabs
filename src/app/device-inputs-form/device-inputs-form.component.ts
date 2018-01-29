@@ -2,7 +2,7 @@ import { element } from 'protractor';
 import { DeviceService } from './../services/device.service';
 import { Component, OnInit, ViewChild, AfterContentChecked, AfterViewInit } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { FormGroup, FormControl, FormControlName, Validators } from '@angular/Forms';
+import { FormGroup, FormControl, FormControlName, Validators } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { ipPattern } from '../common/validations/common-validators';

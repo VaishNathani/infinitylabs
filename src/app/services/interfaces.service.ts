@@ -1,5 +1,5 @@
 import { MAT_DIALOG_DATA } from '@angular/material';
-import { FormGroup } from '@angular/Forms';
+import { FormGroup } from '@angular/forms';
 import { Injectable } from '@angular/core';
 
 interface DeviceInterfacesInfo {
@@ -37,10 +37,7 @@ export class InterfacesService {
      let result : any =  retrievedObject == null ? null :
      retrievedObject.filter((e) => e.hostname === value );
 
-   //   let results : DeviceInterfacesInfo[] = [];
-  //   results.push(result);
- //    console.log(results);
-      return (result == null || result === undefined)  ? [] : result;
+     return (result == null || result === undefined)  ? [] : result;
   }
 
   isUniqueIP(value : string) {

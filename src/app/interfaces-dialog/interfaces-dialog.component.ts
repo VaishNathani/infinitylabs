@@ -2,7 +2,7 @@ import { inject } from '@angular/core/testing';
 import { InterfacesService } from './../services/interfaces.service';
 import { Component, OnInit, ViewChild, AfterViewInit, AfterContentChecked, Inject } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { FormGroup, FormControl, FormControlName, Validators } from '@angular/Forms';
+import { FormGroup, FormControl, FormControlName, Validators } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { ipPattern, CommonValidators } from '../common/validations/common-validators';
